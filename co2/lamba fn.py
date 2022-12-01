@@ -1,0 +1,11 @@
+n1=int(input("Enter the length of the square:"))
+areas=lambda x:x*x
+print("Area=",areas(n1))
+n2=int(input("Enter the length:"))
+n3=int(input("Enter the breadth:"))
+arear=lambda a,b:a*b
+print("Area=",arear(n2,n3))
+n4=int(input("Enter the base:"))
+n5=int(input("Enter the height:"))
+areat=lambda x,y:0.5*x*y
+print("ARE =",areat(n4,n5))
